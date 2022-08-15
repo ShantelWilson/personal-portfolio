@@ -2,8 +2,9 @@ import React, { Component }  from 'react';
 import {Container, Col, Row} from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter from "../assets/img/python.jpg";
-import meter2 from "../assets/img/ml.png";
+import meter from "../assets/img/python.png";
+import meter1 from "../assets/img/ml2.png";
+import meter2 from "../assets/img/cyber2.png";
 import meter3 from "../assets/img/web.png";
 import colorSharp from "../assets/img/color-sharp.png";
 
@@ -45,11 +46,11 @@ export const Skills = () =>  {
                                     <h5>Programming</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image"/>
+                                    <img src={meter1} alt="Image"/>
                                     <h5>Machine Learning</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image"/>
+                                    <img src={meter2} alt="Image"/>
                                     <h5>Cyber Security</h5>
                                 </div>
                                 <div className="item">
